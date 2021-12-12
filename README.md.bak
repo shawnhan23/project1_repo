@@ -72,8 +72,7 @@ A summary of the access policies in place can be found in the table below.
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because
 it is faster and more efficient to automate machine configuration. It ensures that multiple machines can be set up similarly.
-Any changes that need to be made can be made to the configuration scripts and then deployed quickly and accurately. One file needs to
-be maintained. This is an example of Infrastruture as Code (IaC).
+Any changes that need to be made can be made to the configuration scripts and then deployed quickly and accurately.
 
 The playbook implements the following tasks:
 - Install docker
