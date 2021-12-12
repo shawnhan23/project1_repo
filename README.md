@@ -8,10 +8,10 @@ These files have been tested and used to generate a live ELK deployment on Azure
 Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat.
 
   - See the following files:
-  project1_repo/Ansible/web-playbook.yml
-  project1_repo/Ansible/elk-playbook.yml
-  project1_repo/Ansible/filebeat-playbook.yml
-  project1_repo/Ansible/filebeat-config.yml
+  project1_repo/Ansible/web-playbook.yml,
+  project1_repo/Ansible/elk-playbook.yml,
+  project1_repo/Ansible/filebeat-playbook.yml,
+  project1_repo/Ansible/filebeat-config.yml,
   project1_repo/Ansible/metricbeat-config.yml
 
 This document contains the following details:
