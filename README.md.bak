@@ -2,16 +2,16 @@
 
 The files in this repository were used to configure the network depicted below.
 
-Diagrams/ELK_network.drawio
+[Network Diagram](../../Diagrams/ELK_network.drawio)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to recreate the entire deployment pictured above. 
 Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat.
 
   - See the following files:
-  project1_repo/Ansible/web-playbook.yml
-  project1_repo/Ansible/elk-playbook.yml
-  project1_repo/Ansible/filebeat-playbook.yml
-  project1_repo/Ansible/filebeat-config.yml
+  project1_repo/Ansible/web-playbook.yml,
+  project1_repo/Ansible/elk-playbook.yml,
+  project1_repo/Ansible/filebeat-playbook.yml,
+  project1_repo/Ansible/filebeat-config.yml,
   project1_repo/Ansible/metricbeat-config.yml
 
 This document contains the following details:
@@ -72,7 +72,8 @@ A summary of the access policies in place can be found in the table below.
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because
 it is faster and more efficient to automate machine configuration. It ensures that multiple machines can be set up similarly.
-Any changes that need to be made can be made to the configuration scripts and then deployed quickly and accurately.
+Any changes that need to be made can be made to the configuration scripts and then deployed quickly and accurately. One file needs to
+be maintained. This is an example of Infrastruture as Code (IaC).
 
 The playbook implements the following tasks:
 - Install docker
@@ -83,7 +84,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-Images/docker_ps.png
+[docker ps](/Images/docker_ps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
