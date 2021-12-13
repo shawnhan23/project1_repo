@@ -53,7 +53,7 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-174.108.93.225
+my public IP
 
 Machines within the network can only be accessed by SSH.
 The Jump Box can access the ELK Server. 
@@ -62,11 +62,11 @@ A summary of the access policies in place can be found in the table below.
 
 | Name       | Publically Accessible | Allowed IP Address     |
 |------------|-----------------------|------------------------|
-| Jump Box   | Yes                   | 174.108.93.225         |
+| Jump Box   | Yes                   | my public IP           |
 | Web 1      | No                    | Allows SSH connections |
 | Web 2      | No                    | Allows SSH connections |
 | Web 3      | No                    | Allows SSH connections |
-| Elk Server | Yes                   | 174.108.93.225         |
+| Elk Server | Yes                   | my public IP           |
 
 ### Elk Configuration
 
